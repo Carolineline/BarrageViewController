@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C940F6331DFAA12C009686F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C940F6321DFAA12C009686F3 /* main.m */; };
+		C940F6361DFAA12C009686F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C940F6351DFAA12C009686F3 /* AppDelegate.m */; };
+		C940F63C1DFAA12C009686F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C940F63A1DFAA12C009686F3 /* Main.storyboard */; };
+		C940F63E1DFAA12C009686F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C940F63D1DFAA12C009686F3 /* Assets.xcassets */; };
+		C940F6411DFAA12C009686F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C940F63F1DFAA12C009686F3 /* LaunchScreen.storyboard */; };
+		C940F64C1DFAA12C009686F3 /* BarrageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C940F64B1DFAA12C009686F3 /* BarrageViewControllerTests.m */; };
+		C940F6571DFAA12C009686F3 /* BarrageViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C940F6561DFAA12C009686F3 /* BarrageViewControllerUITests.m */; };
+		C940F6661DFAA1E4009686F3 /* BarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C940F6651DFAA1E4009686F3 /* BarrageView.m */; };
+		C940F6691DFAA22D009686F3 /* BarrageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C940F6681DFAA22D009686F3 /* BarrageManager.m */; };
+		C940F66C1DFAA5C0009686F3 /* BarrageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C940F66B1DFAA5C0009686F3 /* BarrageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C940F6481DFAA12C009686F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C940F6261DFAA12C009686F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C940F62D1DFAA12C009686F3;
+			remoteInfo = BarrageViewController;
+		};
+		C940F6531DFAA12C009686F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C940F6261DFAA12C009686F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C940F62D1DFAA12C009686F3;
+			remoteInfo = BarrageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C940F62E1DFAA12C009686F3 /* BarrageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarrageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C940F6321DFAA12C009686F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C940F6341DFAA12C009686F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C940F6351DFAA12C009686F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C940F63B1DFAA12C009686F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C940F63D1DFAA12C009686F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C940F6401DFAA12C009686F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C940F6421DFAA12C009686F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C940F6471DFAA12C009686F3 /* BarrageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C940F64B1DFAA12C009686F3 /* BarrageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageViewControllerTests.m; sourceTree = "<group>"; };
+		C940F64D1DFAA12C009686F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C940F6521DFAA12C009686F3 /* BarrageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C940F6561DFAA12C009686F3 /* BarrageViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageViewControllerUITests.m; sourceTree = "<group>"; };
+		C940F6581DFAA12C009686F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C940F6641DFAA1E4009686F3 /* BarrageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageView.h; sourceTree = "<group>"; };
+		C940F6651DFAA1E4009686F3 /* BarrageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageView.m; sourceTree = "<group>"; };
+		C940F6671DFAA22D009686F3 /* BarrageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageManager.h; sourceTree = "<group>"; };
+		C940F6681DFAA22D009686F3 /* BarrageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageManager.m; sourceTree = "<group>"; };
+		C940F66A1DFAA5C0009686F3 /* BarrageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageViewController.h; sourceTree = "<group>"; };
+		C940F66B1DFAA5C0009686F3 /* BarrageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C940F62B1DFAA12C009686F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C940F6441DFAA12C009686F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C940F64F1DFAA12C009686F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C940F6251DFAA12C009686F3 = {
+			isa = PBXGroup;
+			children = (
+				C940F6301DFAA12C009686F3 /* BarrageViewController */,
+				C940F64A1DFAA12C009686F3 /* BarrageViewControllerTests */,
+				C940F6551DFAA12C009686F3 /* BarrageViewControllerUITests */,
+				C940F62F1DFAA12C009686F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C940F62F1DFAA12C009686F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C940F62E1DFAA12C009686F3 /* BarrageViewController.app */,
+				C940F6471DFAA12C009686F3 /* BarrageViewControllerTests.xctest */,
+				C940F6521DFAA12C009686F3 /* BarrageViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C940F6301DFAA12C009686F3 /* BarrageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C940F6341DFAA12C009686F3 /* AppDelegate.h */,
+				C940F6351DFAA12C009686F3 /* AppDelegate.m */,
+				C940F66A1DFAA5C0009686F3 /* BarrageViewController.h */,
+				C940F66B1DFAA5C0009686F3 /* BarrageViewController.m */,
+				C940F6671DFAA22D009686F3 /* BarrageManager.h */,
+				C940F6681DFAA22D009686F3 /* BarrageManager.m */,
+				C940F6641DFAA1E4009686F3 /* BarrageView.h */,
+				C940F6651DFAA1E4009686F3 /* BarrageView.m */,
+				C940F63A1DFAA12C009686F3 /* Main.storyboard */,
+				C940F63D1DFAA12C009686F3 /* Assets.xcassets */,
+				C940F63F1DFAA12C009686F3 /* LaunchScreen.storyboard */,
+				C940F6421DFAA12C009686F3 /* Info.plist */,
+				C940F6311DFAA12C009686F3 /* Supporting Files */,
+			);
+			path = BarrageViewController;
+			sourceTree = "<group>";
+		};
+		C940F6311DFAA12C009686F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C940F6321DFAA12C009686F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C940F64A1DFAA12C009686F3 /* BarrageViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C940F64B1DFAA12C009686F3 /* BarrageViewControllerTests.m */,
+				C940F64D1DFAA12C009686F3 /* Info.plist */,
+			);
+			path = BarrageViewControllerTests;
+			sourceTree = "<group>";
+		};
+		C940F6551DFAA12C009686F3 /* BarrageViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C940F6561DFAA12C009686F3 /* BarrageViewControllerUITests.m */,
+				C940F6581DFAA12C009686F3 /* Info.plist */,
+			);
+			path = BarrageViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C940F62D1DFAA12C009686F3 /* BarrageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C940F65B1DFAA12C009686F3 /* Build configuration list for PBXNativeTarget "BarrageViewController" */;
+			buildPhases = (
+				C940F62A1DFAA12C009686F3 /* Sources */,
+				C940F62B1DFAA12C009686F3 /* Frameworks */,
+				C940F62C1DFAA12C009686F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarrageViewController;
+			productName = BarrageViewController;
+			productReference = C940F62E1DFAA12C009686F3 /* BarrageViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C940F6461DFAA12C009686F3 /* BarrageViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C940F65E1DFAA12C009686F3 /* Build configuration list for PBXNativeTarget "BarrageViewControllerTests" */;
+			buildPhases = (
+				C940F6431DFAA12C009686F3 /* Sources */,
+				C940F6441DFAA12C009686F3 /* Frameworks */,
+				C940F6451DFAA12C009686F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C940F6491DFAA12C009686F3 /* PBXTargetDependency */,
+			);
+			name = BarrageViewControllerTests;
+			productName = BarrageViewControllerTests;
+			productReference = C940F6471DFAA12C009686F3 /* BarrageViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C940F6511DFAA12C009686F3 /* BarrageViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C940F6611DFAA12C009686F3 /* Build configuration list for PBXNativeTarget "BarrageViewControllerUITests" */;
+			buildPhases = (
+				C940F64E1DFAA12C009686F3 /* Sources */,
+				C940F64F1DFAA12C009686F3 /* Frameworks */,
+				C940F6501DFAA12C009686F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C940F6541DFAA12C009686F3 /* PBXTargetDependency */,
+			);
+			name = BarrageViewControllerUITests;
+			productName = BarrageViewControllerUITests;
+			productReference = C940F6521DFAA12C009686F3 /* BarrageViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C940F6261DFAA12C009686F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xiaolin.han;
+				TargetAttributes = {
+					C940F62D1DFAA12C009686F3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U2DK25PEUY;
+						ProvisioningStyle = Automatic;
+					};
+					C940F6461DFAA12C009686F3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U2DK25PEUY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C940F62D1DFAA12C009686F3;
+					};
+					C940F6511DFAA12C009686F3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U2DK25PEUY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C940F62D1DFAA12C009686F3;
+					};
+				};
+			};
+			buildConfigurationList = C940F6291DFAA12C009686F3 /* Build configuration list for PBXProject "BarrageViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C940F6251DFAA12C009686F3;
+			productRefGroup = C940F62F1DFAA12C009686F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C940F62D1DFAA12C009686F3 /* BarrageViewController */,
+				C940F6461DFAA12C009686F3 /* BarrageViewControllerTests */,
+				C940F6511DFAA12C009686F3 /* BarrageViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C940F62C1DFAA12C009686F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C940F6411DFAA12C009686F3 /* LaunchScreen.storyboard in Resources */,
+				C940F63E1DFAA12C009686F3 /* Assets.xcassets in Resources */,
+				C940F63C1DFAA12C009686F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C940F6451DFAA12C009686F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C940F6501DFAA12C009686F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C940F62A1DFAA12C009686F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C940F66C1DFAA5C0009686F3 /* BarrageViewController.m in Sources */,
+				C940F6661DFAA1E4009686F3 /* BarrageView.m in Sources */,
+				C940F6361DFAA12C009686F3 /* AppDelegate.m in Sources */,
+				C940F6691DFAA22D009686F3 /* BarrageManager.m in Sources */,
+				C940F6331DFAA12C009686F3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C940F6431DFAA12C009686F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C940F64C1DFAA12C009686F3 /* BarrageViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C940F64E1DFAA12C009686F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C940F6571DFAA12C009686F3 /* BarrageViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C940F6491DFAA12C009686F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C940F62D1DFAA12C009686F3 /* BarrageViewController */;
+			targetProxy = C940F6481DFAA12C009686F3 /* PBXContainerItemProxy */;
+		};
+		C940F6541DFAA12C009686F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C940F62D1DFAA12C009686F3 /* BarrageViewController */;
+			targetProxy = C940F6531DFAA12C009686F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C940F63A1DFAA12C009686F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C940F63B1DFAA12C009686F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C940F63F1DFAA12C009686F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C940F6401DFAA12C009686F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C940F6591DFAA12C009686F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C940F65A1DFAA12C009686F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C940F65C1DFAA12C009686F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U2DK25PEUY;
+				INFOPLIST_FILE = BarrageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.han.BarrageViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C940F65D1DFAA12C009686F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U2DK25PEUY;
+				INFOPLIST_FILE = BarrageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.han.BarrageViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C940F65F1DFAA12C009686F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U2DK25PEUY;
+				INFOPLIST_FILE = BarrageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.han.BarrageViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarrageViewController.app/BarrageViewController";
+			};
+			name = Debug;
+		};
+		C940F6601DFAA12C009686F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U2DK25PEUY;
+				INFOPLIST_FILE = BarrageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.han.BarrageViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarrageViewController.app/BarrageViewController";
+			};
+			name = Release;
+		};
+		C940F6621DFAA12C009686F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U2DK25PEUY;
+				INFOPLIST_FILE = BarrageViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.han.BarrageViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BarrageViewController;
+			};
+			name = Debug;
+		};
+		C940F6631DFAA12C009686F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U2DK25PEUY;
+				INFOPLIST_FILE = BarrageViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.han.BarrageViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BarrageViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C940F6291DFAA12C009686F3 /* Build configuration list for PBXProject "BarrageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C940F6591DFAA12C009686F3 /* Debug */,
+				C940F65A1DFAA12C009686F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C940F65B1DFAA12C009686F3 /* Build configuration list for PBXNativeTarget "BarrageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C940F65C1DFAA12C009686F3 /* Debug */,
+				C940F65D1DFAA12C009686F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C940F65E1DFAA12C009686F3 /* Build configuration list for PBXNativeTarget "BarrageViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C940F65F1DFAA12C009686F3 /* Debug */,
+				C940F6601DFAA12C009686F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C940F6611DFAA12C009686F3 /* Build configuration list for PBXNativeTarget "BarrageViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C940F6621DFAA12C009686F3 /* Debug */,
+				C940F6631DFAA12C009686F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C940F6261DFAA12C009686F3 /* Project object */;
+}
